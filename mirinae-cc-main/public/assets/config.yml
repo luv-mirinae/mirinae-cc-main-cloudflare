@@ -1,0 +1,125 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/search for icons options
+
+title: 'Dashboard'
+subtitle: 'mirinae.cc'
+logo: 'logo.png'
+
+header: true
+footer: '<p>Copyright &copy; 2025 Mirinae, All rights reserved.<br>Donate BTC: 3A3m7QPy8dhZgy1TLepaQ3x26pVBHzKuTJ</p>'
+
+columns: 3
+connectivityCheck: false
+
+defaults:
+  # columns, list
+  layout: columns
+  # auto, light, dark
+  colorTheme: auto
+
+theme: default
+colors:
+  light:
+    highlight-primary: rgb(90, 175, 180)
+    highlight-secondary: rgb(95, 184, 189)
+    highlight-hover: rgb(146, 194, 199)
+    background: rgb(245, 245, 245)
+    card-background: rgb(255, 255, 255)
+    text: rgb(54, 54, 54)
+    text-header: rgb(255, 255, 255)
+    text-title: rgb(48, 48, 48)
+    text-subtitle: rgb(66, 66, 66)
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: rgb(75, 175, 175)
+    link-hover: rgb(188, 226, 232)
+  dark:
+    highlight-primary: rgb(50, 94, 100)
+    highlight-secondary: rgb(66, 102, 105)
+    highlight-hover: rgb(81, 107, 110)
+    background: rgb(19, 19, 19)
+    card-background: rgb(43, 43, 43)
+    text: rgb(234, 234, 234)
+    text-header: rgb(255, 255, 255)
+    text-title: rgb(250, 250, 250)
+    text-subtitle: rgb(245, 245, 245)
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: rgb(45, 96, 96)
+    link-hover: rgb(94, 113, 116)
+
+message:
+  style: 'is-dark'
+  content: '<i class="fa-solid fa-star" style="color: rgb(95, 184, 189)"></i>&nbsp;&nbsp;Welcome to my homepage!'
+
+links:
+  - name: 'GitHub'
+    icon: 'fab fa-github'
+    url: 'https://github.com/luv-mirinae/mirinae-cc-main-wrangler'
+    target: '_blank'
+  - name: 'Mail'
+    icon: 'fas fa-envelope'
+    url: 'mailto:develop@mirinae.cc'
+
+services:
+  - name: 'Personal'
+    icon: 'fas fa-heart'
+    items:
+      - name: 'Introduce'
+        icon: 'fa-solid fa-user-tie'
+        subtitle: 'my.mirinae.cc'
+        tag: 'myself'
+        url: 'https://my.mirinae.cc'
+        target: '_blank'
+      - name: 'Blog'
+        icon: 'fa-solid fa-blog'
+        subtitle: 'blog.mirinae.cc'
+        tag: 'blog'
+        url: 'https://blog.mirinae.cc'
+        target: '_blank'
+      - name: 'Develop'
+        icon: 'fa-solid fa-code'
+        subtitle: 'dev.mirinae.cc'
+        tag: 'dev. blog'
+        url: 'https://dev.mirinae.cc'
+        target: '_blank'
+      - name: 'API'
+        icon: 'fa-solid fa-terminal'
+        subtitle: 'api.mirinae.cc'
+        tag: 'api'
+        url: 'https://api.mirinae.cc'
+        target: '_blank'
+  - name: 'Community'
+    icon: 'fas fa-paper-plane'
+    items:
+      - name: 'Twitter'
+        icon: 'fa-solid fa-dove'
+        subtitle: 'x.mirinae.cc'
+        tag: 'SNS'
+        url: 'https://x.mirinae.cc'
+        target: '_blank'
+      - name: 'Gallery'
+        icon: 'fa-solid fa-image'
+        subtitle: 'photo.mirinae.cc'
+        tag: 'photo'
+        url: 'https://photo.mirinae.cc'
+        target: '_blank'
+      - name: 'Sekai'
+        icon: 'fa-solid fa-music'
+        subtitle: 'sekai.mirinae.cc'
+        tag: 'pjsk'
+        url: 'https://sekai.mirinae.cc'
+        target: '_blank'
+  - name: 'Link'
+    icon: 'fas fa-link'
+    items:
+      - name: 'GitHub'
+        icon: 'fa-solid fa-code-branch'
+        subtitle: 'luv-mirinae'
+        tag: 'github'
+        url: 'https://github.com/luv-mirinae'
+        target: '_blank'
+      - name: 'Mail'
+        icon: 'fa-solid fa-envelope'
+        subtitle: 'develop@mirinae.cc'
+        tag: 'mail'
+        url: 'mailto:develop@mirinae.cc'
