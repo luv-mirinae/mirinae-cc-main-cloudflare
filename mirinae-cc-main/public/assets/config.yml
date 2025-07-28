@@ -7,7 +7,7 @@ subtitle: 'mirinae.cc'
 logo: 'logo.png'
 
 header: true
-footer: '<p>Copyright &copy; 2025 Mirinae, All rights reserved.<br>Donate BTC: 3A3m7QPy8dhZgy1TLepaQ3x26pVBHzKuTJ</p>'
+footer: '<p>Copyright &copy; 2025 Mirinae, All rights reserved.</p>'
 
 columns: 3
 connectivityCheck: false
