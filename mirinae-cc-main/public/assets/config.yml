@@ -49,7 +49,7 @@ colors:
 
 message:
   style: 'is-dark'
-  content: '<i class="fa-solid fa-star" style="color: rgb(95, 184, 189)"></i>&nbsp;&nbsp;Welcome to my homepage!<br><br>Hi, I&apos;m Mirinae, a developer and Linux engineer based in South Korea.<br>If you like this site, please consider supporting me!<br><br>My cryptocurrency address is:&nbsp;&nbsp;<i class="fa-brands fa-bitcoin" style="color: rgb(95, 184, 189)"></i> 3A3m7QPy8dhZgy1TLepaQ3x26pVBHzKuTJ'
+  content: '<i class="fa-solid fa-star" style="color: rgb(95, 184, 189)"></i>&nbsp;&nbsp;Welcome to my homepage!'
 
 links:
   - name: 'GitHub'
