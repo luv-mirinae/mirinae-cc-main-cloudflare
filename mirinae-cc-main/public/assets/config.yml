@@ -54,7 +54,7 @@ message:
 links:
   - name: 'GitHub'
     icon: 'fab fa-github'
-    url: 'https://github.com/luv-mirinae/mirinae-cc-main-wrangler'
+    url: 'https://github.com/luv-mirinae/mirinae-cc-main-cloudflare'
     target: '_blank'
   - name: 'Mail'
     icon: 'fas fa-envelope'
