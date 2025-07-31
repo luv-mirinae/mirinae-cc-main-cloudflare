@@ -68,7 +68,7 @@ services:
         icon: 'fa-solid fa-user-tie'
         subtitle: 'Let me introduce myself.'
         tag: 'myself'
-        url: 'https://my.mirinae.cc'
+        url: 'https://im.mirinae.cc'
         target: '_blank'
       - name: 'Blog'
         icon: 'fa-solid fa-blog'
